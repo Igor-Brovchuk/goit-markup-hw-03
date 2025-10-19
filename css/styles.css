@@ -4,27 +4,45 @@ body {
   background-color: #fff;
 }
 
-body a {
+a {
   text-decoration: none;
 }
 
-body ul {
+ul {
   list-style-type: none;
 }
+
 h1,
 h2,
 h3,
 p {
   margin: 0;
 }
+
 ul {
   margin: 0;
   padding-left: 0;
 }
+
 img {
   display: block;
 }
-.logo {
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  max-width: 1440px;
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -32,6 +50,21 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px 0 24px 156px;
+  margin-right: 76px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+  margin-right: 332px;
+}
+
+.contacts-list {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
 }
 
 .logo-part {
@@ -67,6 +100,9 @@ img {
 
 .hero-image {
   background: #2e2f42;
+  text-align: center;
+}
+.hero-container {
 }
 
 .hero-image-title {
@@ -76,7 +112,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  text-align: center;
+  padding: 188px 472px 0 472px;
+  margin-bottom: 48px;
 }
 
 .btn {
@@ -88,6 +125,10 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 188px;
 }
 
 .btn:hover,
@@ -104,6 +145,7 @@ img {
   text-align: center;
   text-transform: capitalize;
 }
+
 .section-title-item {
   font-weight: 500;
   font-size: 20px;
@@ -113,6 +155,7 @@ img {
   text-align: center;
   text-transform: capitalize;
 }
+
 .item-text {
   font-weight: 400;
   font-size: 16px;
@@ -121,15 +164,19 @@ img {
   color: #434455;
   text-align: center;
 }
+
 .team {
   background: #f4f4fd;
 }
+
 .team-card {
   background-color: #fff;
 }
+
 .site-footer {
   background: #2e2f42;
 }
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -139,9 +186,11 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .logo-span-footer {
   color: #f4f4fd;
 }
+
 .footer-p {
   font-weight: 400;
   font-size: 16px;
