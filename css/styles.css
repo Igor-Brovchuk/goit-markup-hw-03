@@ -63,7 +63,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0 24px;
   margin-right: 332px;
 }
 
@@ -73,6 +72,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0 24px;
 }
 
 .contacts {
@@ -119,18 +119,16 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  /* padding:68px 316px 0 316px */
-  padding: 188px 0;
   margin-bottom: 48px;
 }
-
+.hero-content {
+  padding: 188px 0;
+}
 .btn {
-  /*  */
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
-  /*  */
   font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   font-weight: 500;
@@ -217,16 +215,6 @@ img {
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
 }
-/*
-.team-card .section-title-item {
-  text-align: center;
-  padding-top: 32px;
-  margin-bottom: 8px;
-}
-.team-card .item-text {
-  padding-bottom: 32px;
-  text-align: center;
-}*/
 
 .card-content {
   padding: 32px 0;
@@ -246,6 +234,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
+/*
 .portfolio .section-title-item {
   padding-top: 32px;
   padding-left: 16px;
@@ -254,6 +243,10 @@ img {
 .portfolio .item-text {
   padding-bottom: 32px;
   padding-left: 16px;
+}
+  */
+.card-content-app {
+  padding: 32px 16px;
 }
 .site-footer {
   background: #2e2f42;
@@ -268,7 +261,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  padding-top: 100px;
   margin-bottom: 16px;
 }
 
@@ -282,6 +274,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  /* padding: 0 864px 100px 0; */
+}
+.footer-content {
+  max-width: 264px;
   padding: 100px 0;
 }
