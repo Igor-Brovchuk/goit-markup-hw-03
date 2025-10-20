@@ -245,11 +245,12 @@ img {
   padding-left: 16px;
 }
   */
-.card-content-app {
+.app-name {
   padding: 32px 16px;
 }
 .site-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo-footer {
@@ -277,5 +278,4 @@ img {
 }
 .footer-content {
   max-width: 264px;
-  padding: 100px 0;
 }
