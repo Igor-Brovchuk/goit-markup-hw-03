@@ -219,6 +219,7 @@ img {
 }
 
 .team-card {
+  background-color: #fff;
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
 }
